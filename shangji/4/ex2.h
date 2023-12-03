@@ -13,4 +13,7 @@ typedef struct Matrix
     unsigned int row, col, num;
 } Matrix;
 
+Matrix *matrixAdd(Matrix *A, Matrix *B);
+void PrintMatrix(Matrix *M);
+
 #endif

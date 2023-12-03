@@ -8,4 +8,14 @@ typedef struct BiNode
     BiNode *lchild, *rchild;
 } BiNode;
 
+BiNode *CreateBiTree(BiNode *T, char *str);
+void InOrder(BiNode *T);
+void PostOrder(BiNode *T);
+int Depth(BiNode *T);
+int LevelWidth(BiNode *root, int level);
+int Width(BiNode *root);
+int IsLegal(char *str);
+void ErrorHandle(int errorType);
+
+
 #endif
